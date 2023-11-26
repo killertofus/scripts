@@ -56,7 +56,7 @@ if test -f ~/.var/app/io.github.vinegarhq.Vinegar/config/vinegar/config.toml; th
     mv ~/.var/app/io.github.vinegarhq.Vinegar/config/vinegar/config.toml ~/.var/app/io.github.vinegarhq.Vinegar/config/vinegar/config.toml.bak
 fi
 touch ~/.var/app/io.github.vinegarhq.Vinegar/config/vinegar/config.toml
-echo -e "[global]\nwineroot = \"$HOME/wine-lutris-GE-Proton8-21-x86_64\"\nchannel = \"zavatarteam2\"" > ~/.var/app/io.github.vinegarhq.Vinegar/config/vinegar/config.toml
+echo -e "[global]\nwineroot = \"$HOME/wine-lutris-GE-Proton8-21-x86_64\"\nchannel = \"LIVE\"" > ~/.var/app/io.github.vinegarhq.Vinegar/config/vinegar/config.toml
 
 echo -e "Launching ROBLOX..."
 flatpak run io.github.vinegarhq.Vinegar player
